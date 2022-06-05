@@ -1,9 +1,6 @@
 package Items;
 
 public interface Item {
-    String name = "Unknown";
-    double weight = 0.0;
-    double value = 0.0;
 
     String getName();
     void setName(String name);
@@ -15,3 +12,5 @@ public interface Item {
     void setValue(double value);
 
 }
+
+
